@@ -30,6 +30,11 @@ body::before{
     right: 0;
     height: 1px;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 header{
     position: relative;
     margin: 0;
@@ -38,16 +43,6 @@ header{
 .page-header {
     z-index: 10;
     display: block;
-}
-.page-header .container-fluid{
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;   
-}
-
-.container-fluid::after{
-    clear: both;
 }
 
 .header-top{
@@ -122,6 +117,7 @@ header{
     outline: 0;
     cursor: pointer;
 }
+
 .page-header .brand svg{
     fill: white;
     display: block;
@@ -157,78 +153,26 @@ header{
 .main{
     background-color: white;
     padding-top: 20px;
-
 }
-.col-4{
-    height: 5262px;
+.flt-left{
     float: left;
-    
 }
-/*  */
-
-div.sticky4{
-    left: 0;
-    top: 0;
-    width: auto;
+.flt-right{
+    float: right;
 }
-#sticky4{
-    position: static !important;
-}
-#sticky4>.row{
-    flex-direction: column;
-}
-
-/*  */
-
-
-.top-story-wrapper{
-    display: block;
-    width: 100%;
-    position: relative;
-
-}
-.top-story-wrapper div:first-child{
-
-}
-.top-story{
-    background: url(https://d.newsweek.com/en/full/1506492/fe-smackdown-01-opener.jpg?w=591&h=364&l=50&t=40&q=90&f=477c33b9cd3d1e99d94716c775e677f2)no-repeat;
-    opacity: 1;
-    width: 100%;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-.top-story-wrapper .content  h1{
-    display: block;
-
-}
+/* /////////////////////////// */
 
 
 /* FOOTER */
-footer{
+/* footer{
     border-top: 2px solid #f4f5f6;
     background-color: white;
     padding-top: 30px;
     padding-bottom: 30px;
 
-}
-
-/* @media screen and (max-width: 767px){
-    div.sticky4{
-        left: 0;
-        top: 0;
-        width: auto;
-    }
-    #sticky4{
-        position: static !important;
-    }
-    #sticky4>.row{
-        flex-direction: column;
-    }
-    
 } */
 
-@media screen and (min-width:768px){
+/* @media screen and (min-width:768px){
     body{
         font-size: 15px;
         line-height: 20px;
@@ -236,6 +180,15 @@ footer{
     .header-bottom{
         display: none;
     }
+} */
+
+@media screen and (min-width: 768px){
+   .order-md-5-1{
+       order: 1;
+   }
+   .order-md-7-2{
+       order: 2;
+   }
 }
 @media screen and (min-width:992px){
     .page-header .header-top{
@@ -307,14 +260,19 @@ footer{
         padding-right: 160px;
         background-color: white;
         border-bottom: #f4f5f6;
+       
+        
     }
     .header-bottom{
         position: relative;
         display: block;
         padding-top: 15px;
         padding-bottom: 15px;
+        padding-left: 0;
+        padding-right: 0;
         border-bottom-width: 2px;
         border-bottom-style: solid;
+        width: 100%;
         z-index: 1;
     }
     .page-header .header-bottom::before{
@@ -345,10 +303,7 @@ footer{
         clip:auto;
         font-size: 0;
     }
-    /* .search{
-        overflow: hidden;
-    } */
-
+ 
     .page-header form#search-block input[type="text"]{
         right: 102px;
         color: rgba(0,0,0,.55);
@@ -404,8 +359,6 @@ footer{
     .page-nav a:hover{
         color: #f72210;
     }
-
-
     
 
 }
