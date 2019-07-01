@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Newsweek - News, Analysis, Pollitics, Business, Technology</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styles/reset.css">
-    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -68,10 +67,11 @@
                             <label class="element-invisible" for="edit-search-block-form">
                                 Search
                             </label>
-                            <input id="edit-search-block-form" title="Enter the terms you wish to search for." placeholder="Search"
-                                type="text" name="search_block_form" value="" size="15" maxlength="128">
+                            <input id="edit-search-block-form" title="Enter the terms you wish to search for."
+                                placeholder="Search" type="text" name="search_block_form" value="" size="15"
+                                maxlength="128">
                         </div>
-                     
+
                     </form>
                     <ul class="page-nav">
                         <li><a href="#" title="">U.S.</a></li>
@@ -88,173 +88,450 @@
         </div>
     </header>
 
-    <main class="container-fluid main">
+    <main class="container-fluid bg-white">
         <div class="row">
-            <div class="col-4">
-                <div id="sticky4">
-                    <div class="row">
-                        <div class="col-1">
-                            <div id="sticky1" style="position:static; left:0;top:0;width: auto;">
-                                <div class="block block-nw">
-                                    <div class="content">
-                                        <div class="feature2">
-                                            <div class="block-title">
-                                                Featured Stories
-                                            </div>
-                                            <article></article>
-                                            <article></article>
-                                            <article></article>
-                                            <article></article>
-                                        </div>
-                                    </div>
-                                </div>
+            <!-- <div class="col-md-8"> -->
+            <!-- <div class="row featured mb-4"> -->
+            <div class="col-md-5 col-lg-4 order-md-5-1 order-2 ">
+                <div class="featured">
+                    <h5 class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">
+                        Featured Story
+                    </h5>
+                    <article class="card border-0">
+                        <div class="img-fluid">
+                            <a href="#">
+                                <img class="card-img-top" alt="Best Business Tools 2019"
+                                    title="Best Business Tools 2019"
+                                    src="https://d.newsweek.com/en/full/1504090/best-business-tools-2019.png?w=397&amp;h=265&amp;l=50&amp;t=40&amp;q=90&amp;f=5af7cd03bfcb8052da60d6a487e4472c">
+                            </a>
+                            <div class="py-2 px-3 text-uppercase">
+                                <a href="#">Analysis</a>
                             </div>
                         </div>
-                    </div>
 
+                        <h3>
+                            <a class="text-black-50 font-weight-bold" href="#">Best Business Tools 2019</a>
+                        </h3>
+                        <div class="card-text px-0 py-2">Working with Statista Inc., the globally recognized data
+                            research
+                            company, Newsweek has produced an authoritative list of America's Best Business Tools.
+                        </div>
+                    </article>
+                    <article class="card border-0">
+                        <div class="img-fluid">
+                            <a href="#">
+                                <img class="card-img-top" alt="Best Business Tools 2019"
+                                    title="Best Business Tools 2019"
+                                    src="https://d.newsweek.com/en/full/1504090/best-business-tools-2019.png?w=397&amp;h=265&amp;l=50&amp;t=40&amp;q=90&amp;f=5af7cd03bfcb8052da60d6a487e4472c">
+                            </a>
+                            <div class="py-2 px-3 text-uppercase">
+                                <a href="#">Analysis</a>
+                            </div>
+                        </div>
+
+                        <h3>
+                            <a href="#">Best Business Tools 2019</a>
+                        </h3>
+                        <div class="card-text px-0 py-2">Working with Statista Inc., the globally recognized data
+                            research
+                            company, Newsweek has produced an authoritative list of America's Best Business Tools.
+                        </div>
+                    </article>
+                    <article class="card border-0">
+                        <div class="img-fluid">
+                            <a href="#">
+                                <img class="card-img-top" alt="Best Business Tools 2019"
+                                    title="Best Business Tools 2019"
+                                    src="https://d.newsweek.com/en/full/1504090/best-business-tools-2019.png?w=397&amp;h=265&amp;l=50&amp;t=40&amp;q=90&amp;f=5af7cd03bfcb8052da60d6a487e4472c">
+                            </a>
+                            <div class="py-2 px-3 text-uppercase">
+                                <a href="#">Analysis</a>
+                            </div>
+                        </div>
+
+                        <h3>
+                            <a href="#">Best Business Tools 2019</a>
+                        </h3>
+                        <div class="card-text px-0 py-2">Working with Statista Inc., the globally recognized data
+                            research
+                            company, Newsweek has produced an authoritative list of America's Best Business Tools.
+                        </div>
+                    </article>
+                    <article class="card border-0">
+                        <div class="img-fluid">
+                            <a href="#">
+                                <img class="card-img-top" alt="Best Business Tools 2019"
+                                    title="Best Business Tools 2019"
+                                    src="https://d.newsweek.com/en/full/1504090/best-business-tools-2019.png?w=397&amp;h=265&amp;l=50&amp;t=40&amp;q=90&amp;f=5af7cd03bfcb8052da60d6a487e4472c">
+                            </a>
+                            <div class="py-2 px-3 text-uppercase">
+                                <a href="#">Analysis</a>
+                            </div>
+                        </div>
+
+                        <h3>
+                            <a href="#">Best Business Tools 2019</a>
+                        </h3>
+                        <div class="card-text px-0 py-2">Working with Statista Inc., the globally recognized data
+                            research
+                            company, Newsweek has produced an authoritative list of America's Best Business Tools.
+                        </div>
+                    </article>
+                    <article class="card border-0">
+                        <div class="img-fluid">
+                            <a href="#">
+                                <img class="card-img-top" alt="Best Business Tools 2019"
+                                    title="Best Business Tools 2019"
+                                    src="https://d.newsweek.com/en/full/1504090/best-business-tools-2019.png?w=397&amp;h=265&amp;l=50&amp;t=40&amp;q=90&amp;f=5af7cd03bfcb8052da60d6a487e4472c">
+                            </a>
+                            <div class="py-2 px-3 text-uppercase">
+                                <a href="#">Analysis</a>
+                            </div>
+                        </div>
+
+                        <h3>
+                            <a href="#">Best Business Tools 2019</a>
+                        </h3>
+                        <div class="card-text px-0 py-2">Working with Statista Inc., the globally recognized data
+                            research
+                            company, Newsweek has produced an authoritative list of America's Best Business Tools.
+                        </div>
+                    </article>
                 </div>
-                <div>
-                    Top Story
-                </div>
-                <article>
-                    <div class="content col-5 col-sm-5 col-md-5">
-                        <a href="#">
-                            <div class="top-story">Pollitics</div>
-                        </a>
-                        <h1>Congress vs the White House: Who Will Win?</h1>
-                        <div class="summary">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quidem deleniti laudantium nesciunt assumenda quia debitis
-                            iusto similique praesentium molestias id!
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <div class="block">
-
-                <div class="content">
-                    <div class="more-featured">
-                        <div class="more">
-                            <div>
-                                MORE
-                            </div>
-                            <article>
-                                <a href="#">
-                                    <div>
-                                        img
-                                    </div>
-                                </a>
-                                <h4>
-                                    RIO GRAnde
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officia, libero!
-                                </p>
-                            </article>
-                            <article>
-                                <a href="#">
-                                    <div>
-                                        img
-                                    </div>
-                                </a>
-                                <h4>
-                                    RIO GRAnde
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officia, libero!
-                                </p>
-                            </article>
-                            <article>
-                                <a href="#">
-                                    <div>
-                                        img
-                                    </div>
-                                </a>
-                                <h4>
-                                    RIO GRAnde
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officia, libero!
-                                </p>
-                            </article>
-                            <article>
-                                <a href="#">
-                                    <div>
-                                        img
-                                    </div>
-                                </a>
-                                <h4>
-                                    RIO GRAnde
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officia, libero!
-                                </p>
-                            </article>
-                            <article>
-                                <a href="#">
-                                    <div>
-                                        img
-                                    </div>
-                                </a>
-                                <h4>
-                                    RIO GRAnde
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officia, libero!
-                                </p>
-                            </article>
-                        </div>
-                        <div class="featured">
-                            <div>
-                                FEATUREd
-                            </div>
-                            <article>
-                                <div class="col-5 col-sm-5 col-md-5">
-                                    <a href="#">
-                                        <div class="top-story">Pollitics</div>
-                                    </a>
-                                    <h1>Congress vs the White House: Who Will Win?</h1>
-                                    <div class="summary">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Quidem deleniti laudantium nesciunt assumenda quia debitis
-                                        iusto similique praesentium molestias id!
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="analysiss">
-                            <div>
-                                Analysis
-                            </div>
-                            <article>
-                                <div class="col-5 col-sm-5 col-md-5">
-                                    <a href="#">
-                                        <div class="top-story">Pollitics</div>
-                                    </a>
-                                    <h1>Congress vs the White House: Who Will Win?</h1>
-                                    <div class="summary">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Quidem deleniti laudantium nesciunt assumenda quia debitis
-                                        iusto similique praesentium molestias id!
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
+                <div class="sponsor">
+                    
                 </div>
 
             </div>
+            <div class="col-md-7 col-lg-5 order-md-7-2 order-1">
+                <div class="top-story">
+                    <h5 class="mt-3 mb-2  text-uppercase text-black-50 font-weight-bolder">
+                        Top Story
+                    </h5>
+                    <article class="card border-0 pb-2">
+                        <div class="img-fluid">
+                            <a href="#">
+                                <img class="card-img-top" alt="President Donald Trump" title="President Donald Trump"
+                                    src="https://d.newsweek.com/en/full/1508121/president-donald-trump.jpg?w=591&amp;h=364&amp;l=50&amp;t=40&amp;q=90&amp;f=de88a210a9b62f6c17191b8e056abe9c">
+                            </a>
+                            <div class="text-uppercase">
+                                <a href="#">News</a>
+                            </div>
+                        </div>
+                        <h1 class="card-title font-weight-bold">
+                            <a href="#">Trump Defends Putin 'Meddling'
+                                Comment: 'I Did Discuss It A Little Bit'
+                            </a>
+                        </h1>
+                        <div class="card-text">Trump was asked to clarify his light-hearted warning to Putin at the
+                            G20 in Osaka.
+                        </div>
+                        <ul class="related py-2 border-top border-bottom font-weight-bolder">
+                            <li>
+                                <a href="#" itemprop="relatedLink">Trump Shakes Saudi Prince's Hand in Leaders' G20
+                                    Photo
+                                    While Everyone Else Waves</a>
+                            </li>
+                            <li>
+                                <a href="#" itemprop="relatedLink">Donald Trump Provokes Anger in Spain by 'Mocking'
+                                    Prime
+                                    Minister at G20 Meeting</a>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="more-stories">
+                    <h6 class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">
+                        More storires
+                    </h6>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
 
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
+
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
+
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
+
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
+
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
+
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
+
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
+
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                    <article class="clearfix border-top pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-3 pb-4" alt="clint detention" title="clint detention"
+                                    src="https://d.newsweek.com/en/full/1508341/clint-detention.jpg?w=135&amp;h=90&amp;l=50&amp;t=40&amp;f=5629ae03ed593a36270c9104cccf6c31">
+
+                            </a>
+                        </div>
+                        <h4>
+                            <a class="d-block pl-3 font-weight-bold" href="#">
+                                Border Officials Barred Lawyers From Seeing Sick Migrant Children
+                            </a>
+                        </h4>
+                        <div class="d-block pt-2">
+                            Human Rights Watch U.S. Program Executive Director Nicole Austin-Hillery
+                            said she and other lawyers were told they could not meet with sick migrant children for
+                            their own safety.
+                        </div>
+                    </article>
+                </div>
+
+            </div> <!-- col-md-7 -->
+
+            <!-- </div> rowfeatured mb4 -->
+            <!--</div>-->
+            <!--col-md-8-->
+            <div class="col-md-12 col-lg-3 order-3">
+                <h5 class="mt-3 mb-2 text-uppercase text-black-50 font-weight-bolder">
+                    Opinion
+                </h5>
+                <ul class="list-group">
+                    <li class="border-bottom pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-2 pb-3" alt="Newt Gingrich" title="Newt Gingrich"
+                                    src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&amp;h=63&amp;l=48&amp;t=55&amp;f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <a class="font-weight-bold" href="#">
+                                Congress Must Fight Academic Espionage to Protect American Jobs
+                            </a>
+                            <div class="text-uppercase font-weight-bolder text-black-50 pt-1 pb-2">
+                                By Newt Gingrich
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border-bottom pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-2 pb-3" alt="Peter Roff" title="Peter Roff"
+                                    src="https://d.newsweek.com/en/full/109320/peter-roff.png?w=63&amp;h=63&amp;l=50&amp;t=40&amp;f=462cca5859d3d5619ce9866c5abd8288">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <a class="font-weight-bold" href="#">
+                                The Democrats Love to Promise Voters Free Stuff That Isn't Free at All
+                            </a>
+                            <div class="text-uppercase font-weight-bolder text-black-50 pt-1 pb-2">
+                                By Peter Roff
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border-bottom pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-2 pb-3" alt="Heather Thompson Day"
+                                    title="Heather Thompson Day"
+                                    src="https://d.newsweek.com/en/full/1508047/heather-thompson-day.png?w=63&amp;h=63&amp;l=50&amp;t=40&amp;f=21ee35c602b00efb8f3704ffaaa517fd">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <a class="font-weight-bold" href="#">
+                                Are America's Christians Sacrificing Their Neighbors for Themselves?
+                            </a>
+                            <div class="text-uppercase font-weight-bolder text-black-50 pt-1 pb-2">
+                                By Heather Thompson Day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border-bottom pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-2 pb-3" alt="Soraya Chemaly" title="Soraya Chemaly"
+                                    src="https://d.newsweek.com/en/full/1507858/soraya-chemaly.png?w=63&amp;h=63&amp;l=50&amp;t=40&amp;f=9889fa52353cd3f4984c5c6f48b96ac3">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <a class="font-weight-bold" href="#">
+                                'She's Not My Type' Is Not a Defense Against Alleged Rape
+                            </a>
+                            <div class="text-uppercase font-weight-bolder text-black-50 pt-1 pb-2">
+                                By Soraya Chemaly
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border-bottom pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-2 pb-3" alt="Kristen Clarke and Ezra Rosenberg"
+                                    title="Kristen Clarke and Ezra Rosenberg"
+                                    src="https://d.newsweek.com/en/full/1507684/kristen-clarke-ezra-rosenberg.png?w=63&amp;h=63&amp;l=50&amp;t=40&amp;f=ae86fd90bc2218f37523d151f6958cf2">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <a class="font-weight-bold" href="#">
+                                Rejecting the Malicious Citizenship Question Should've Been Obvious
+                            </a>
+                            <div class="text-uppercase font-weight-bolder text-black-50 pt-1 pb-2">
+                                By Kristen Clarke and Ezra Rosenberg
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border-bottom pt-2">
+                        <div>
+                            <a href="#">
+                                <img class="float-left pr-2 pb-3" alt="Stefan Simanowitz" title="Stefan Simanowitz"
+                                    src="https://d.newsweek.com/en/full/1500970/stefan-simanowitz.png?w=63&amp;h=63&amp;l=50&amp;t=40&amp;f=c59488a85538203071a0dcfb0775186f">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <a class="font-weight-bold" href="#">
+                                22 European Countries Still Won't
+                                Say Sex Without Consent is Rape
+                            </a>
+                            <div class="text-uppercase font-weight-bolder text-black-50 pt-1 pb-2">
+                                By Stefan Simanowitz
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-
     </main>
 
+    <!-- 
     <footer class="container-fluid">
         <div class="logo-sm-icons">
             <div class="logo">
@@ -298,7 +575,7 @@
         <div class="editions">
 
         </div>
-    </footer>
+    </footer> -->
 
 </body>
 
