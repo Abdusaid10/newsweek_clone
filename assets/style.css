@@ -176,6 +176,22 @@ header{
     text-align: center;
     line-height: 1.9rem;
 }
+.white-bg{
+    display:block;
+    padding: 5px;
+    background:white;
+    opacity: .9;
+    color:red; 
+    font-weight: bold;
+}
+.white-bg-bl-tx {
+    display:block;
+    padding: 5px;
+    background:white;
+    opacity: .8;
+    color:#3581f4; 
+    font-weight: bold;
+}
 
 
 /* /////////////////////////// */
@@ -184,6 +200,7 @@ header{
 /* FOOTER */
 
 footer{
+    
     background: white;
 }
 /* footer{
@@ -296,6 +313,7 @@ footer{
         padding-bottom: 15px;
         padding-left: 0;
         padding-right: 0;
+        margin: 0;
         border-bottom-width: 2px;
         border-bottom-style: solid;
         width: 100%;
